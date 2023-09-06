@@ -6,6 +6,7 @@ metadata:
   name: consumer
   labels:
     app.kubernetes.io/part-of: consumer
+    apps.tanzu.vmware.com/has-tests: "true"
     apps.tanzu.vmware.com/workload-type: web
 spec:
   build:
