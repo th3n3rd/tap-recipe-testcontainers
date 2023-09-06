@@ -26,4 +26,4 @@ spec:
               cd `mktemp -d`
               wget -qO- $(params.source-url) | tar xvz -m
               cd consumer
-              ./mvnw verify
+              ./mvnw verify -DexcludedGroups=acceptance

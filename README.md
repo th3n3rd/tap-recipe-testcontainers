@@ -7,4 +7,6 @@ This repository is used as a playground to experiment with Tanzu Application Pla
 
 [x] Setup a basic workload
 [x] Install the OOTB supply chain that support Testing and provide a simple test pipeline
-[ ] Add an integration test that leverages testcontainers
+[x] Integrate and test the consumer with a provider stub
+[x] Add an acceptance test that leverages testcontainers but exclude it from the test pipeline
+[ ] Update the test pipeline to support running the acceptance test
